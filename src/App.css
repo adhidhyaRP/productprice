@@ -1,0 +1,66 @@
+.productbox{
+  width: 900px;
+  height: 500px;
+  /* border: 1px solid black; */
+  background-color: azure;
+ 
+  padding: 20px;
+  padding-top: 30px;
+  margin-top: 100px;
+ 
+}
+#root {
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+
+
+.subtotal,.shipping,.total{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.shipping{
+  /* padding-bottom: 40px; */
+  
+  
+border-bottom: 1px solid rgb(50, 49, 49);
+}
+
+.subtotal .price,.shipping .price,.total .price{
+  margin-left: 700px;
+  
+ 
+  
+}
+.total .price{
+  margin-left: 728px;
+}
+
+.product{
+  display: flex;
+}
+.productbox img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 80px;
+
+}
+.productbox button{
+width: 20px;
+height: 20px;
+margin: 2px;
+/* margin-left: 60px; */
+}
+.quantity{
+
+  margin-left: 260px;
+  margin-top: 20px;
+  
+}
+
+
+
+
